@@ -23,6 +23,11 @@ body {
     width: 100%;
     max-width: 600px;
   }
+
+  /* label{
+    margin: 10px !important;
+    color:#c7c7c7
+  } */
   
   @media only screen and (max-width: 768px) {
     .form {
@@ -53,6 +58,7 @@ body {
     flex-direction: column;
     margin-right: 20px;
     width: 50%;
+    margin-bottom: 20px;
   }
   
   .form-group-half:last-child {

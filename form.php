@@ -15,16 +15,16 @@
         <form method="post">
             <div class="form-group">
             <div class="form-group-half">
-                <label for="name">Name</label>
+                <!-- <label for="name">Name</label> -->
                 <input name="name" type="text" placeholder="Name" id="name">
             </div>
             <div class="form-group-half">
-                <label for="email">Email</label>
+                <!-- <label for="email">Email</label> -->
                 <input name="email" type="text" placeholder="Email" id="email">
             </div>
             </div>
             <div class="form-group">
-            <label for="message">Message</label>
+            <!-- <label for="message">Message</label> -->
             <textarea name="message" id="message" placeholder="Message"></textarea>
             </div>
             <input name="submit" type="submit" value="Submit">
