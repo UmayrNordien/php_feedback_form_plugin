@@ -1,6 +1,25 @@
+body{
+    overflow: hidden;
+}
+
+/* Form */
 .form{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+input{
+    border: 1px #252525 solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input:hover{
+    border: 1px #252525 solid;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 15px;
+    transition: 1s ease-in-out;
 }
