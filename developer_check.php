@@ -43,7 +43,9 @@
                 if (result.isConfirmed) {
                   Swal.fire({
                     title: `${result.value.login}'s avatar`,
-                    imageUrl: result.value.avatar_url
+                    imageUrl: result.value.avatar_url,
+                    imageWidth: 200,
+                    imageHeight: 200
                   }).then(() => {
                     window.location.href = "http://localhost/php_feedback_form_plugin/form.php";
                   });

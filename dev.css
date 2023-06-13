@@ -1,11 +1,26 @@
-body{
+body {
     overflow: hidden !important;
 }
 
 /* BUTTON */
-.feedback{
+.feedback {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+#feedback{
+    background-color: #fff;
+    border: 1px #252525 solid;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+#feedback:hover{
+    background-color: #252525;
+    color:#fff;
+    border: 1px #fff solid;
+    padding: 10px !important;
+    border-radius: 10px !important;
+    transition: 1s ease-in-out;
+
 }

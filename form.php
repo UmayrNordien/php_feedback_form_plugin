@@ -13,9 +13,20 @@
         <!-- FEEDBACK FORM -->
         <div class="form">
         <form method="post">
-            <input name="name" type="text" placeholder="Name">
-            <input name="email" type="text" placeholder="Email">
-            <input name="message" type="text" placeholder="Message">
+            <div class="form-group">
+            <div class="form-group-half">
+                <label for="name">Name</label>
+                <input name="name" type="text" placeholder="Name" id="name">
+            </div>
+            <div class="form-group-half">
+                <label for="email">Email</label>
+                <input name="email" type="text" placeholder="Email" id="email">
+            </div>
+            </div>
+            <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            </div>
             <input name="submit" type="submit" value="Submit">
         </form>
         </div>
