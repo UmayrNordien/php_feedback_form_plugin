@@ -56,8 +56,8 @@
                 <script>
                     Swal.fire({
                         icon: 'success',
-                        title: 'Success',
-                        text: 'Feedback Submitted Successfully',
+                        title: 'Great!',
+                        text: 'Aight, looks like your feedback is in the books!',
                         theme: 'dark',
                     })
                 </script>
